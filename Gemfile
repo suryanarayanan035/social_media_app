@@ -70,3 +70,13 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "mongoid", "~> 8.1"
+
+gem "mysql2", "~> 0.5.5"
+
+gem "rodauth-rails", "~> 1.10"
+
+gem "jwt", "~> 2.7"
+
+gem "argon2", "~> 2.2"
