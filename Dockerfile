@@ -4,9 +4,7 @@ WORKDIR /src
 
 COPY . .
 
-RUN gem install rails -v 7.0.6
+RUN gem install bundler
 
-RUN bundle install 
-
-CMD rails server -b 0.0.0.0 -p 5000
+ 
 
